@@ -7,4 +7,4 @@ TEST = "https://www.dropbox.com/scl/fi/o6mvsowpp9r3k2lejuegt/music_genre_test.cs
 train = pd.read_csv(TRAIN)
 test = pd.read_csv(TEST)
 
-st.write(train.head(10).tail(10)
+st.write(train.head(10).tail(10))
