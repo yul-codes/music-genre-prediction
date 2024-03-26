@@ -11,7 +11,9 @@ def main():
 
     st.header('Music Genre Prediction')
 
+    st.write('Training dataset')
     st.dataframe(train)
+    st.write('Test dataset')
     st.dataframe(test)
 
 
