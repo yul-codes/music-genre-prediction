@@ -11,8 +11,8 @@ def main():
 
     st.header('Music Genre Prediction')
 
-    st.dataFrame(train)
-    st.dataFrame(test)
+    st.dataframe(train)
+    st.dataframe(test)
 
 
 if __name__ == "__main__":
