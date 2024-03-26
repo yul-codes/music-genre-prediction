@@ -9,7 +9,7 @@ def main():
     train = pd.read_csv(TRAIN)
     test = pd.read_csv(TEST)
 
-    st.header('Music Genre Prediction')
+    st.header('Music Genre Prediction :)')
 
     st.write('Training dataset')
     st.dataframe(train)
